@@ -1,8 +1,8 @@
-- **产品简介**
-  - [产品概述](/introduction/summary)
-  - [基本概念](/introduction/concept)
-- **快速入门**
-- **API参考**
+- **入门**
+  - [什么是NEM](/getting-started/what-is-nem)
+  - [配置开发环境](/introduction/concept)
+- **协议**
+- **内置功能**
   - [准备](/apis/prepare)
   - [服务器](/apis/nis)
   - [账号](/apis/account)
