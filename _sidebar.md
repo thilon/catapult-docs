@@ -1,6 +1,6 @@
 - **入门**
   - [什么是NEM](/getting-started/what-is-nem)
-  - [配置开发环境](/introduction/concept)
+  - [配置开发环境](/getting-started/setting)
 - **协议**
 - **内置功能**
   - [准备](/apis/prepare)
