@@ -1,13 +1,12 @@
-
 - **产品简介**
-  - [产品概述](/introduction/summary)
+  - [产品概述](/introduction/summary)
   - [基本概念](/introduction/concept)
 - **快速入门**
 - **API参考**
   - [准备](/apis/prepare)
-  - [服务器](/apis/nis)
+  - [服务器](/apis/nis)
   - [账号](/apis/account)
-  - [区块链](/apis/blockchain)
-  - [节点](/apis/node)
-  - [命名空间与马赛克](/apis/namespace_mosaics)
-  - [交易](/apis/transaction)
+  - [区块链](/apis/blockchain)
+  - [节点](/apis/node)
+  - [命名空间与马赛克](/apis/namespace_mosaics)
+  - [交易](/apis/transaction)
