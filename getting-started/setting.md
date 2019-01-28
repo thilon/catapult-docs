@@ -16,7 +16,6 @@ $> cd catapult-service-bootstrap
 $> docker-compose up
 ```
 
-   
-.. note:: Is catapult service bootstrap not working? Check |catapult-service-bootstrap-known-issues|.
+!> 如果投石车服务引导程序无法工作，请查看catapult-service-bootstrap-known-issues
 
 
