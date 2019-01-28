@@ -1,6 +1,7 @@
 - **入门**
   - [什么是NEM](/getting-started/what-is-nem)
   - [配置开发环境](/getting-started/setting)
+  - [编写第一个应用](/getting-started/first-application)
 - **协议**
 - **内置功能**
   - [准备](/apis/prepare)
