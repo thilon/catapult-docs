@@ -13,6 +13,7 @@
 > $> git clone https://github.com/tech-bureau/catapult-service-bootstrap.git --branch v0.1.0
 > $> cd catapult-service-bootstrap
 > $> docker-compose up
+
    
 .. note:: Is catapult service bootstrap not working? Check |catapult-service-bootstrap-known-issues|.
 
