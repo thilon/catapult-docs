@@ -9,10 +9,8 @@
 您将使用Catapult Service Bootstrap运行私人链以进行学习。此服务在本地运行Catapult服务器实例和Catapult REST节点。
 
 1. 在运行以下命令之前，请确保已安装docker和docker-compose：
-> $> git clone https://github.com/tech-bureau/catapult-service-bootstrap.git --branch v0.1.0
-
-> $> cd catapult-service-bootstrap
-
-> $> docker-compose up
+>  $> git clone https://github.com/tech-bureau/catapult-service-bootstrap.git --branch v0.1.0
+>  $> cd catapult-service-bootstrap
+>  $> docker-compose up
 
 
