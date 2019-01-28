@@ -157,4 +157,4 @@ $> Install-Package nem2-sdk
 $> Install-Package System.Reactive
 ```
 
-你在使用其他IDE吗？在这种情况下，请查看安装NuGet包的不同方法(https://docs.microsoft.com/en-us/nuget/consume-packages/ways-to-install-a-package)
+你在使用其他IDE吗？在这种情况下，请查看[安装NuGet包的不同方法](https://docs.microsoft.com/en-us/nuget/consume-packages/ways-to-install-a-package)
