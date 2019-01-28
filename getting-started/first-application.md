@@ -1,4 +1,4 @@
-## 编写第一个应用程序
+## 编写第一个应用
 
 本指南将指导您完成一个NEM开发周期。在组合了一些NEM内置功能后，您将会把第一笔交易发送到区块链。
 
@@ -124,11 +124,12 @@ $> nem2-cli transaction mosaic --mosaicname ticket  -  namespacename company  - 
 将一个`company:ticket`发送到门票供应商帐户，宣布转账类型交易，这是NEM中最常用的操作之一。
 
 1. 准备转账交易。转移交易的三个主要属性：
-收件人帐户地址：`SC7A4H-7CYCSH-4CP4XI-ZS4G2G-CDZ7JP-PR5FRG-2VBU`。
+收件人帐户地址：`SC7A4H-7CYCSH-4CP4XI-ZS4G2G-CDZ7JP-PR5FRG-2VBU`
 包含一条消息：`enjoy your ticket`
-一个马赛克数组：。`[1 company:ticket]`
+一个马赛克数组：`[1 company:ticket]`
 
 TypeScript
+
 ```TypeScript
 import {
     Account, Address, Deadline, UInt64, NetworkType, PlainMessage, TransferTransaction, Mosaic, MosaicId,
@@ -145,6 +146,7 @@ const transferTransaction = TransferTransaction.create(
 ```
 
 Java
+
 ```Java
 import io.nem.sdk.model.account.Address;
 import io.nem.sdk.model.blockchain.NetworkType;
@@ -169,7 +171,10 @@ final TransferTransaction transferTransaction = TransferTransaction.create(
 ```
 !> 虽然创建了交易，但尚未向网络公布。
 
-2. 首先在票务供应商帐户中签署交易，以便网络可以验证交易的真实性。
+2. 首先在票务供应商帐户中签署交易，以便网络可以验证交易的真实性
+
+TypeScript
+
 ```TypeScript
 const privateKey = process.env.PRIVATE_KEY;
 
@@ -177,6 +182,8 @@ const account = Account.createFromPrivateKey(privateKey, NetworkType.MIJIN_TEST)
 
 const signedTransaction = account.sign(transferTransaction);
 ```
+
+Java
 
 ```Java
 final String privateKey = "";
