@@ -87,7 +87,7 @@ Insert profile name (blank means default and it could overwrite the previous pro
 
 ### TypeScript和JavaScript
 
-1. Create a ‘package.json’ file. The minimum required Node.js version is 8.9.X.
+1. Create a `package.json` file. The minimum required Node.js version is 8.9.X.
 
 ```
 $> npm init
@@ -125,7 +125,7 @@ $> sudo npm install --global ts-node
 gradle init --type java-application
 ```
 
-2. 编辑'build.gradle'以使用Maven central repository
+2. 编辑`build.gradle`以使用Maven central repository
 
 ```
 repositories {
@@ -142,12 +142,12 @@ dependencies {
 }
 ```
 
-4. 执行‘gradle build’和‘gradle run’运行你的程序。
+4. 执行`gradle build`和`gradle run`运行你的程序。
 
 ### C/#
 
 1. 使用C＃IDE创建一个新项目。如果是Visual Studio，请使用程序包管理器控制台安装nem2-sdk。
-2. 打开菜单命令。‘Tools > NuGet Package Manager > Package Manager Console’。
+2. 打开菜单命令。`Tools > NuGet Package Manager > Package Manager Console`。
 3. 在终端中输入nem2-sdk和反应库包名称
 
 ```
