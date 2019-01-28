@@ -144,7 +144,7 @@ dependencies {
 
 4. 执行`gradle build`和`gradle run`运行你的程序。
 
-### C #
+###  C#
 
 1. 使用C＃IDE创建一个新项目。如果是Visual Studio，请使用程序包管理器控制台安装nem2-sdk。
 2. 打开菜单命令。`Tools > NuGet Package Manager > Package Manager Console`。
