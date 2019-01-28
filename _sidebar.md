@@ -3,6 +3,7 @@
   - [配置开发环境](/getting-started/setting)
   - [编写第一个应用](/getting-started/first-application)
 - **协议**
+  - [密码学](/protocol/cryptography)
 - **内置功能**
   - [准备](/apis/prepare)
   - [服务器](/apis/nis)
