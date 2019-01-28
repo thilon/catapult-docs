@@ -21,7 +21,7 @@ $> docker-compose up
 1. 检查是否能获得第一个块信息：
 
 ```
-$> curl localhost：3000 / block / 1
+$> curl localhost:3000/block/1
 ```
 
 ### 创建测试账户
