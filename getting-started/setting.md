@@ -117,6 +117,7 @@ $> sudo npm install --global ts-node
 如果要直接使用javascript，可以执行节点来运行js文件。
 
 ### JAVA
+
 打开一个新的Java gradle项目。最低JDK版本是JDK8。
 
 1. 使用您喜欢的IDE或从命令行创建项目
@@ -144,7 +145,8 @@ dependencies {
 
 4. 执行`gradle build`和`gradle run`运行你的程序。
 
-### C#
+C#
+===
 
 1. 使用C＃IDE创建一个新项目。如果是Visual Studio，请使用程序包管理器控制台安装nem2-sdk。
 2. 打开菜单命令。`Tools > NuGet Package Manager > Package Manager Console`。
