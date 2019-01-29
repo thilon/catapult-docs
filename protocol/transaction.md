@@ -75,3 +75,33 @@
 “重写限制”是可以回滚的最大块数。因此，分叉也只能被解析到一定的深度。
 NEM具有360块的重写限制。一旦交易超过360次确认，就无法撤消。
 在现实生活中，除非由于代码中的错误或攻击导致区块链出现严重问题，否则不会发生超过20个区块的分叉。
+
+### 指南
+
+### 结构描述(Schemas)
+
+**Transaction**
+
+**inlines**
+
+*SizePrefixedEntity
+*VerifiableEntity
+*EntityBody
+
+|属性|类型|说明|
+|:---|:---|:---|
+|fee|uint64|宣布交易的成本。这项费用对于那些保护网络的人来说是必要的。该账户以XEM支付费用，XEM是NEM网络的基础加密货币。私有链可以编辑网络配置以抑制费用。|
+|deadline|uint64|将交易包括在区块链中的最长时间|
+
+**EmbeddedTransaction**
+
+**inlines**
+
+*SizePrefixedEntity
+*EntityBody
+
+**SizePrefixedEntity**
+
+|属性|类型|说明|
+|:---|:---|:---|
+|size|unit32|交易的大小|
