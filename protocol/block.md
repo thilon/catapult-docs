@@ -27,3 +27,42 @@ NEM出块时间在15秒，使交易确认足够快，以便日常使用
  **inlines**
  * VerifiableEntity
  * EntityBody
+ 
+|属性|类型|说明|
+|:---|:---|:---|
+|height|uint64|区块的高度。每个区块都有不同的高度，后面的区块跟前面的区块相差1|
+|timestamp|uint64|自第一个区块创建以来经过的秒数|
+|difficulty|uint64|区块难度值|
+|previousBlockHash|32 bytes(binary)|前一个区块的hash值|
+|blockTransactionHash|32 bytes(binary)|该区块中的所有交易形成了一个Merkle树。树根的Hash值|
+|stateHash|32 bytes (binary)|每一个区块的状态(state)存储在RocksDB数据库中，形成一个Patricia树，值为树根的hash值|
+
+**Verison**:字节高位表示网络类型
+
+|Id|说明|
+|:---|:---|
+|0x68 (MAIN_NET)|公有链|
+|0x98 (TEST_NET)|公有测试链|
+|0x60 (MIJIN)|私有链|
+|0x90 (MIJIN_TEST)|私有测试链|
+
+**Type**：区块类型
+
+|Id|说明|
+|:---|:---|
+|0x8043|复仇女神之块(创世块)|
+|0x8143|区块|
+
+### VerifiableEntity
+
+|属性|类型|说明|
+|:---|:---|:---|
+|signature|64 bytes(binary)|签名者生成的实体签名|
+
+### EntityBody
+
+|属性|类型|说明|
+|:---|:---|:---|
+|signer|32 bytes (binary)|签名者的公匙|
+|version|uint16|结构体的版本|
+|type|uint16|实体类型。对于交易类型。查看交易类型|
