@@ -4,6 +4,7 @@
   - [编写第一个应用](/getting-started/first-application)
 - **协议**
   - [密码学](/protocol/cryptography)
+  - [区块](/protocol/block)
 - **内置功能**
   - [准备](/apis/prepare)
   - [服务器](/apis/nis)
