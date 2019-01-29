@@ -5,4 +5,5 @@
 - **协议**
   - [密码学](/protocol/cryptography)
   - [区块](/protocol/block)
+  - [交易](/protocol/transaction)
 - **内置功能**
