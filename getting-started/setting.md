@@ -4,6 +4,8 @@
 
 ### 运行投石车(Catapult)服务引导程序(Bootstrap)
 
+![](../images/four-layer-architecture-basic.png)
+
 **Catapult Server节点**（第1层）构建对等的区块链网络。**Catapult Rest节点**（第2层）提供应用程序可用于访问区块链及其功能的API网关。
 
 您将使用Catapult Service Bootstrap运行私人链以进行学习。此服务在本地运行Catapult服务器实例和Catapult REST节点。
