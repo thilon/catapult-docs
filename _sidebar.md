@@ -11,3 +11,5 @@
 - **Rest API**
   - [概述](/rest-api/overview)
   - [工具](/rest-api/tools)
+  - [终端](/rest-api/endpoints)
+  - [序列化](/rest-api/serialization)
