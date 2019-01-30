@@ -3,7 +3,7 @@
 [Catbuffer library](https://github.com/nemtech/catbuffer)定义了序列化和反序列化投石车实体的协议。该库可为不同语言生成代码。
 SDK和应用程序使用生成的代码与REST节点进行交互。
 
-![]()
+![](../images/catbuffer.png)
 
 该库实现如下属性：
 
