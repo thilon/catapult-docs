@@ -8,6 +8,8 @@
   - [交易](/protocol/transaction)
   - [节点](/protocol/node)
 - **内置功能**
+  - [账户](/features/account)
+  - [账户过滤器](/features/account-filter)
 - **Rest API**
   - [概述](/rest-api/overview)
   - [工具](/rest-api/tools)
