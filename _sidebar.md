@@ -10,3 +10,4 @@
 - **内置功能**
 - **Rest API**
   - [概述](/rest-api/overview)
+  - [工具](/rest-api/tools)
