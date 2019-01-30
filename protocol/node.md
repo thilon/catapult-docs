@@ -41,8 +41,8 @@ MongoDB存储区块，交易和链状态，以实现高查询性能。
 
 API在以下情况下更新MongoDB：
 
-*一个新的区块/一堆区块完成处理。
-*新的未经证实的交易已完成处理。
+* 一个新的区块/一堆区块完成处理。
+* 新的未经证实的交易已完成处理。
 
 !> 不应在外部访问MongoDB
 
@@ -60,5 +60,5 @@ Catapult REST使用Sockets将新交易发送到Catapult API。该组件通过Web
 
 ### 指南
 
-*[在本地运行Catapult](https://github.com/tech-bureau/catapult-service-bootstrap/) </br>
+* [在本地运行Catapult](https://github.com/tech-bureau/catapult-service-bootstrap/) </br>
 部署Catapult节点以用于学习和开发目的。
