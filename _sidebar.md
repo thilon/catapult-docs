@@ -8,3 +8,5 @@
   - [交易](/protocol/transaction)
   - [节点](/protocol/node)
 - **内置功能**
+- **Rest API**
+  - [概述](/rest-api/overview)
