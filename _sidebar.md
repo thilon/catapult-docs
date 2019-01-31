@@ -11,6 +11,7 @@
   - [账户](/features/account)
   - [账户过滤器](/features/account-filter)
   - [多层多重签名](/features/multi-level-multisig-account)
+  - [命名空间](/features/namespace)
 - **Rest API**
   - [概述](/rest-api/overview)
   - [工具](/rest-api/tools)
