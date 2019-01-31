@@ -99,7 +99,7 @@ Transaction或EmbeddedTransaction
 
 <h2>MosaicSupplyChangeDirection</h2>
 
-|id|说明|
+|id|类型|说明|
 |:---|:---|:---|
 |0x00|uint8|增加|
 |0x01|uint8|减少|
