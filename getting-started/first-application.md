@@ -1,8 +1,8 @@
-## 编写第一个应用
+<h1>编写第一个应用</h1>
 
 本指南将指导您完成一个NEM开发周期。在组合了一些NEM内置功能后，您将会把第一笔交易发送到区块链。
 
-### 背景
+<h1>背景</h2>
 
 二级票务市场，也称为转售市场，是指个人在从初始供应商处购买票证之后发生的票证交换。最初的供应商可以是活动网站，在线售票平台，商店或活动入口处的摊位。
 
@@ -28,15 +28,16 @@ c. 避免使用非正版票证和重复票证。
 
 其余的代码仍然是链下的。这可以降低固有的不变性风险，因为您可以在必要时更改流程。
 
-### 先决条件
+<h1>先决条件</h2>
 
 * 完成入门部分
 * 文本编辑器或IDE
 * NEM2-SDK和CLI
 * XEM帐户
 
-### 让我们查阅一些代码
-**1. 为每个参与者创建一个帐户**
+<h1>让我们查阅一些代码</h2>
+
+**1.为每个参与者创建一个帐户**
 
 首先，我们确定参与我们要解决的问题的参与者：
 * 售票机。
@@ -67,7 +68,8 @@ Mosaics
 $> nem2-cli account generate --network MIJIN_TEST --save --url http：// localhost：3000 --profile buyer
 ```
 
-**2. 监控(Monitoring)区块链**
+**2.监控(Monitoring)区块链**
+
 帐户通过交易更改区块链状态。一旦帐户宣布交易，如果格式正确，服务器将返回OK响应。
 
 接收到OK响应并不意味着交易有效，这意味着它仍未包含在区块中。一个好的做法是在宣布之前监控交易。
@@ -90,7 +92,7 @@ $> nem2-cli monitor unconfirmed
 $> nem2-cli monitor confirmed
 ```
 
-**3. 创建门票**
+**3.创建门票**
 
 我们将门票表示为NEM马赛克(Mosaics)。马赛克(Mosaics)可用于表示区块链中的任何资产，例如对象，门票，优惠券，股票，甚至您的加密货币。它们具有可配置的属性，这些属性在创建时定义。例如，我们选择将**transferable属性**设置为false。这意味着购票者只能将门票发回给马赛克的创建者，从而避免门票转售。
 
@@ -119,7 +121,7 @@ $> nem2-cli transaction namespace --name foo --rootnamespace --duration 1000
 $> nem2-cli transaction mosaic --mosaicname ticket  -  namespacename company  -  amount 1000000 --supplymutable --divisibility 0 --duration 1000
 ```
 
-**4. 发送门票**
+**4.发送门票**
 
 将一个`company:ticket`发送到门票供应商帐户，宣布转账类型交易，这是NEM中最常用的操作之一。
 
