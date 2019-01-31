@@ -10,6 +10,7 @@
 - **内置功能**
   - [账户](/features/account)
   - [账户过滤器](/features/account-filter)
+  - [多层多重签名](/features/multi-level-multisig-account)
 - **Rest API**
   - [概述](/rest-api/overview)
   - [工具](/rest-api/tools)
