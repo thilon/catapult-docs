@@ -1,8 +1,8 @@
-## 配置开发环境
+<h1>配置开发环境</h1>
 
 本段将引导您逐步安装所需要的工具，以便开始在NEM投石车(Catapult)上进行开发。
 
-### 运行投石车(Catapult)服务引导程序(Bootstrap)
+<h2>运行投石车(Catapult)服务引导程序(Bootstrap)</h2>
 
 ![](../images/four-layer-architecture-basic.png)
 
@@ -26,7 +26,7 @@ $> docker-compose up
 $> curl localhost:3000/block/1
 ```
 
-### 创建测试账户
+<h2>创建测试账户</h2>
 
 帐户(Account)是与存储在NEM区块链中的可变状态相关联的密钥对（私钥和公钥）。换句话说，在区块链上有一个“存款箱”，只有使用密钥对才能进行修改。顾名思义，私钥必须始终保密。有权访问私钥的任何人最终都可以控制该帐户。
 
@@ -58,7 +58,7 @@ $> nem2-cli account generate --network MIJIN_TEST --save --url http://localhost:
 > 公钥：33E0 ... 6ED
 > 私钥：0168 ... 595
 
-### 什么是XEM以及如何获得它？
+<h2>什么是XEM以及如何获得它？</h2>
 
 NEM网络的基础加密货币称为XEM。NEM区块链上的每个操作都需要XEM，以便为验证和保护网络的人提供激励。
 
@@ -82,12 +82,13 @@ Introduce NEM 2 Node URL. (Example: http://localhost:3000): http://localhost:300
 Insert profile name (blank means default and it could overwrite the previous profile):
 ```
 
-### 设置开发环境
+<h2>设置开发环境</h2>
+
 是时候选择编程语言了。选择您最满意的那个，或者按照您的项目要求。
 
 为新项目创建一个文件夹，然后运行所选语言的命令。
 
-### TypeScript和JavaScript
+<h2>TypeScript和JavaScript</h2>
 
 1. Create a `package.json` file. The minimum required Node.js version is 8.9.X.
 
@@ -118,7 +119,7 @@ $> sudo npm install --global ts-node
 
 如果要直接使用javascript，可以执行节点来运行js文件。
 
-### JAVA
+<h2>JAVA</h2>
 
 打开一个新的Java gradle项目。最低JDK版本是JDK8。
 
@@ -147,8 +148,7 @@ dependencies {
 
 4. 执行`gradle build`和`gradle run`运行你的程序。
 
-C#
-===
+<h2>C#</h2>
 
 1. 使用C＃IDE创建一个新项目。如果是Visual Studio，请使用程序包管理器控制台安装nem2-sdk。
 2. 打开菜单命令。`Tools > NuGet Package Manager > Package Manager Console`。
