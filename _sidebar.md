@@ -14,6 +14,7 @@
   - [命名空间](/features/namespace)
   - [马赛克](/features/mosaic)
   - [传输型交易](/features/transfer-transaction)
+  - [聚合交易](/features/aggregate-transaction)
 - **Rest API**
   - [概述](/rest-api/overview)
   - [工具](/rest-api/tools)
