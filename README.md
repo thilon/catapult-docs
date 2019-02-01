@@ -9,3 +9,9 @@
 <h2>相关文档</h2>
 
 [NEM v1 Java版](https://thilon.github.io/nem-docs/#/)
+
+[浅谈NEM区块链中的"智能合约"](https://first.vip/shareNews?id=724&uid=5048)
+
+[为什么说生态才是区块链的未来](https://first.vip/shareNews?id=794&uid=5048)
+
+[区块链落地难题怎么破](https://first.vip/shareNews?id=854&uid=5048)
