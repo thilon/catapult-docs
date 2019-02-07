@@ -14,4 +14,4 @@
 
 [为什么说生态才是区块链的未来](https://first.vip/shareNews?id=794&uid=5048)
 
-区块链落地难题怎么破([中文](https://first.vip/shareNews?id=854&uid=5048)|[English](https://first.vip/shareNews?id=1060&uid=5048&fbclid=IwAR2Ek6yKJIUspksdyWMD2oJf68cshXrCQviIHfhUn5zkn5WFThjLEZ6Q1bA))
+[区块链落地难题怎么破](https://first.vip/shareNews?id=854&uid=5048)
