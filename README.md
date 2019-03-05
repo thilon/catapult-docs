@@ -6,7 +6,7 @@
 
 > NEM新经区块链交流群：669137434
 
-> [NEM Catapult Github](https://github.com/thilon/catapult-docs)
+> [NEM Catapult Github](https://github.com/nemtech)
 
 <h2>相关文档</h2>
 
